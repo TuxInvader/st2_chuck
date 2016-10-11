@@ -1,0 +1,16 @@
+---
+name: "get_chuck"
+action_ref: "chuck.get_chuck"
+description: "What about Chuck"
+formats:
+  - display: "chuck"
+    representation:
+      - "chuck"
+      - "chuck norris"
+      - "what about chuck"
+      - "wwcd"
+result:
+  format: "{{execution.result.result}}"
+ack:
+  enabled: false
+

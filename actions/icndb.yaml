@@ -1,0 +1,5 @@
+description: 'Get Chuck Norris Feature'
+enabled: true
+entry_point: icndb.py
+name: get_chuck
+runner_type: "python-script"
