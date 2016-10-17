@@ -3,3 +3,17 @@ enabled: true
 entry_point: icndb.py
 name: get_chuck
 runner_type: "python-script"
+parameters:
+  name:
+    description: "Replace Chuck with another name, if you dare"
+    type: string
+    required: false
+  surname:
+    description: "Replace Norris with another name, if you dare"
+    type: string
+    required: false
+  explicit:
+    description: "Include explicit jokes"
+    type: boolean
+    required: false
+
