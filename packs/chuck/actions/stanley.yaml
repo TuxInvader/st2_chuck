@@ -1,0 +1,21 @@
+description: 'Get StackStorm Stanley Feature'
+enabled: true
+entry_point: icndb.py
+name: get_stanley
+runner_type: "python-script"
+parameters:
+  name:
+    description: "Replace Chuck with another name, if you dare"
+    type: string
+    default: "StackStorm"
+    required: false
+  surname:
+    description: "Replace Norris with another name, if you dare"
+    type: string
+    default: "Stanley"
+    required: false
+  explicit:
+    description: "Include explicit jokes"
+    type: boolean
+    required: false
+
