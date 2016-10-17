@@ -1,15 +1,9 @@
-# st2_chuck
+#StackStorm Chuck Norris Pack
 
-ChatOps integration with ICNDB (Internet Chuck Norris DataBase)
+## Install
 
-When you have a problem or are feeling the need for inspiration, just ask chuck!
-
+To install the Chuck Norris pack, run:
 ```
-st2 run chuck.get_chuck
-```
-
-In Chat
-```
-!chuck
+st2 run packs.install repo_url=tuxinvader/st2_chuck subtree=true packs=chuck
 ```
 
