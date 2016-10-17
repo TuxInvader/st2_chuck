@@ -1,5 +1,9 @@
 #StackStorm Chuck Norris Pack
 
+## About
+
+Retrieve Chuck Norris quotes from the [Internet Chuck Norris DataBase](http://www.icndb.com/)
+
 ## Install
 
 To install the Chuck Norris pack, run:
