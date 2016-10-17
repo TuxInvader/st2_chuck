@@ -1,0 +1,15 @@
+---
+name: "get_stanley"
+action_ref: "chuck.get_stanley"
+description: "What about Stanley"
+formats:
+  - display: "stanley"
+    representation:
+      - "stanley"
+      - "what about stanley"
+      - "wwsd"
+result:
+  format: "{{execution.result.result}}"
+ack:
+  enabled: false
+
